@@ -1,0 +1,18 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://test:yourpassword@cluster0.dn5t3.mongodb.net/dbname?appName=Cluster0
+
+
+server:
+  port: 8080
+
+jwt:
+  secret: thisIsAVerySecureJwtSecretKeyForRecruitmentApp123456
+  expirationMs: 86400000
+
+resume-parser:
+  url: https://api.apilayer.com/resume_parser/upload
+  apikey: 0bWeisRWoLj3UdXt3MXMSMWptYFIpQfS
+file:
+  upload-dir: uploads
