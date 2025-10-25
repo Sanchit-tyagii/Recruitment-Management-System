@@ -142,8 +142,8 @@ Fetches user and applicant data for admin endpoints.
 ## 🚀 Setup Instructions
 
 1. Clone the repository:
-git clone https://github.com/<your-username>/recruitment-management-system.git
-2. Add environment variables in `application.properties`:
+git clone using this link : https://github.com/Sanchit-tyagii/Recruitment-Management-System
+2. Add environment variables in `application.yml`:
 jwt.secret=YourJWTSecretHere
 jwt.expirationMs=86400000
 resume-parser.url=https://api.apilayer.com/resume_parser/upload
